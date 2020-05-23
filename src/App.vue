@@ -10,7 +10,7 @@
       <el-tooltip class="item" effect="dark" content="刷新" placement="bottom">
         <i class="icon-button el-icon-refresh" @click="refreshPage()"></i>
       </el-tooltip>
-      <el-tooltip class="item" effect="dark" content="全屏" placement="bottom">
+      <el-tooltip class="item" effect="dark" content="最大化" placement="bottom">
         <i class="icon-button el-icon-full-screen" @click="maximizeWin()"></i>
       </el-tooltip>
       <!-- 窗口标题 -->
@@ -19,7 +19,7 @@
         title="Powered By 繁花落幕"
         width="200"
         trigger="hover"
-        content="这是一款基于 H5 + Node.js 技术，使用 electron 创建的桌面端电商工具 [h5 是世界上最好的 GUI 语言]"
+        content="这是一款基于 H5 + Node.js 技术，使用 electron 创建的桌面端电商工具"
         class="win-title ml-auto">
         <div slot="reference">leaderTools</div>
       </el-popover>
@@ -79,6 +79,9 @@ export default {
 </script>
 
 <style>
+  * {
+    user-select: none;
+  }
   #title-block {
     -webkit-app-region: drag;
     width: 100%;

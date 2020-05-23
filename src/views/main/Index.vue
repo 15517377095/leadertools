@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div class="index">
     <div class="container-fluid">
       <div class="row">
         <div class="col-8 pl-4 pr-1">
@@ -7,7 +7,8 @@
             <div class="group-title">图像处理</div>
             <div class="group-items">
               <div class="group-item">
-                <div class="item-logo"></div>
+                <div class="item-logo">裁</div>
+                <div class="item-title">图像裁剪</div>
               </div>
             </div>
           </div>
@@ -25,12 +26,12 @@
 
 <script>
 export default {
-    name: 'main'
+  
 }
 </script>
 
 <style>
-  .main {
+  .index {
     background: #f5f6f8;
     min-height: 100%;
     padding: 10px 0;

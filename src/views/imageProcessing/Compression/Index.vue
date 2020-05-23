@@ -1,5 +1,5 @@
 <template>
-  <div class="imageProcessing_compression">
+  <div class="index">
     <form method="post" encype="multipart/form-data" class="d-none">
       <input type="file" id="pic_input">
     </form>
@@ -9,7 +9,6 @@
 
 <script>
 export default {
-  name: 'imageProcessing_compression',
   data() {
     return {
       
@@ -74,7 +73,5 @@ export default {
 </script>
 
 <style>
-  .upload_box {
-
-  }
+  
 </style>

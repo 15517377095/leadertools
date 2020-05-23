@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import Main from '../components/Main'
-import ImageProcessing_compression from '../components/imageProcessing/Compression'
+import Main from '../views/main/Index'
+import ImageProcessing_compression from '../views/imageProcessing/Compression/Index'
 
 Vue.use(Router)
  

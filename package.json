@@ -14,7 +14,9 @@
     "concurrently": "^5.1.0",
     "core-js": "^3.6.4",
     "element-ui": "^2.13.1",
+    "image-size": "^0.8.3",
     "jquery": "^3.5.1",
+    "juice": "^6.0.0",
     "popper.js": "^1.16.1",
     "puppeteer": "^2.1.1",
     "sass-loader": "^8.0.2",
@@ -26,7 +28,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.2.0",
     "@vue/cli-service": "^4.2.0",
-    "electron": "^8.0.1",
+    "electron": "^8.3.0",
     "vue-template-compiler": "^2.6.11"
   },
   "browserslist": [

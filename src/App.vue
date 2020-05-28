@@ -19,7 +19,7 @@
         title="Powered By 繁花落幕"
         width="200"
         trigger="hover"
-        content="这是一款基于 H5 + Node.js 技术，使用 electron 创建的桌面端电商工具"
+        content="这是一款基于 H5 + Node.js 技术，使用 electron 构建的乐德美工定制桌面端 APP"
         class="win-title ml-auto">
         <div slot="reference">leaderTools</div>
       </el-popover>
@@ -54,7 +54,7 @@ export default {
   methods: {
     goHome () {
       this.$router.push({
-        path: '/a'
+        path: '/'
       })
     },
     refreshPage () {
